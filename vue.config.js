@@ -4,10 +4,13 @@ module.exports = {
       postcss: {
         plugins: [
           require('postcss-px2rem-exclude')({
-            remUnit: 75
+            remUnit: 75,
+            exclude: /@nutui/i
           })
         ]
       }
     }
   }
 }
+
+
