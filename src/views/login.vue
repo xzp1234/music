@@ -52,7 +52,7 @@ export default {
 </script>
 <style lang="less">
     .login_page {
-        background: url("../assets/img/login_bg.jpg");
+        background: url("../static/img/login_bg.jpg");
         background-size: 100% 100%;
     }
 
