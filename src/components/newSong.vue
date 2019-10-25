@@ -3,7 +3,7 @@
         <div class="song_item" v-for="song in newSong" :key="song.id">
             <div class="flex_left"></div>
             <div class="flex_mid">
-                <img class="song_icon" :src="song.iconUrl"></img>
+                <img class="song_icon" :src="song.iconUrl"/>
                 <dl class="song_info">
                     <dt class="song_name">{{song.name}}</dt>
                     <dd class="song_des">{{song.des}}</dd>
@@ -103,11 +103,12 @@ export default {
 }
 
 .song_name {
-    font-size: 16px;
+    font-size: 24px;
     color: black;
 }
 
 .song_des {
+    font-size: 24px;
     padding: 5px 0;
 }
 
